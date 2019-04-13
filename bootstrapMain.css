@@ -1,35 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
-header {
-  padding: 20px 0;
-  /* overflow: hidden; */
-}
-
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
-}
-
-header h1 {
-  font-weight: 700;
-  margin: 0;
-}
-
-header nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-
-ul {
+.headerul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,31 +16,34 @@ ul {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  z-index: 1; /*make nav always in the front*/
 }
 
-li {
+.headerli {
   float: left;
 }
 
-li a {
+.headerli a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 26px;
   text-decoration: none;
 }
 
-li a:hover {
+.headerli a:hover {
   background-color: #111;
+  color: whitesmoke;
+  text-decoration: none; /*remove the underline of a link*/
 }
 
-.jumbotron {
+.jumbotron { /*. indicates a class selector; # indicates a id selector*/
   display: flex;
   align-items: center;
   background-image: url('/Users/eileen/Desktop/WEB/Babe BD/pic/mybabe.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 650px;
+  height: 600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -74,16 +55,18 @@ li a:hover {
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
+  margin: 0 0 20px; /*top ; right&left ; bottom*/
   color: #fff;
 }
 
 section .row img {
-  margin: 0 0 30px;
+  margin: 0 0 30px; /*top ; right&left ; bottom*/
   width: 100%;
+  position: relative; /*(these 2 lines)put the section to the bottom layer*/
+  z-index: -1;
 }
 
-.col-md-6 {
+.col-md-6 { /*medium devices - screen width equal to or greater than 768px*/
   margin: 0 0 30px;
 }
 
@@ -111,7 +94,7 @@ footer {
   padding: 20px 0;
 }
 
-footer .col-sm-8 {
+footer .col-sm-8 { /*small devices - screen width equal to or greater than 576px*/
   display: flex;
   justify-content: flex-end;
 }
