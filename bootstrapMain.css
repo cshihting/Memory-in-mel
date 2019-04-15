@@ -8,16 +8,50 @@ body {
   position: relative;
 }
 
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 /* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
 #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;} */
 #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
 #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 
+.parallax {
+  /*透明度*/
+  opacity: 0.7;
+  
+  /* Full height */
+  height: 80%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .jumbotron { /*. indicates a class selector; # indicates a id selector*/
   display: flex;
   align-items: center;
-  background-image: url('/Users/eileen/Desktop/WEB/Babe BD/pic/mybabe.jpg');
+  background-image: url('pic/mybabe.jpg');
   background-size: cover;
   color: #ffffff;
   height: 600px;
