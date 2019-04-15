@@ -5,37 +5,14 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  position: relative;
 }
 
-.headerul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 1; /*make nav always in the front*/
-}
-
-.headerli {
-  float: left;
-}
-
-.headerli a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px 26px;
-  text-decoration: none;
-}
-
-.headerli a:hover {
-  background-color: #111;
-  color: whitesmoke;
-  text-decoration: none; /*remove the underline of a link*/
-}
+/* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;} */
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 
 .jumbotron { /*. indicates a class selector; # indicates a id selector*/
   display: flex;
@@ -59,12 +36,16 @@ body {
   color: #fff;
 }
 
-section .row img {
+div .row img{
   margin: 0 0 30px; /*top ; right&left ; bottom*/
   width: 100%;
   position: relative; /*(these 2 lines)put the section to the bottom layer*/
   z-index: -1;
 }
+
+/* img {
+  width: 100%;
+} */
 
 .col-md-6 { /*medium devices - screen width equal to or greater than 768px*/
   margin: 0 0 30px;
