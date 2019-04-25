@@ -16,9 +16,9 @@ body {
 
 /* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
 #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;} */
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+#section3 {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
+#section41 {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
+#section42 {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
 
 .parallax {
   /*透明度*/
@@ -58,7 +58,7 @@ body {
 
 div .row img{
   margin: 0 0 30px; /*top ; right&left ; bottom*/
-  width: 100%;
+  width: 50%;
   position: relative; /*(these 2 lines)put the section to the bottom layer*/
   z-index: -1;
 }
