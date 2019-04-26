@@ -90,6 +90,17 @@ div .row img{
   margin: 0 0 30px;
 }
 
+.thematic_break_section {
+  padding: 40px 0 20px;
+}
+
+.thematic_break  {
+  border: 0px;
+  width: 700px;
+	background-color: #b9c5b9;
+	height: 3px;
+}
+
 footer {
   font-size: 12px;
   padding: 20px 0;
