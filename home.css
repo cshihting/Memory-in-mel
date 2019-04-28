@@ -8,24 +8,24 @@ body {
   position: relative;
 }
 
-.top-container {
+/* .top-container {
   background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
-}
+} */
 
-/* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;} */
-#section3 {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
-#section41 {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
-#section42 {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
+/* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}*/
+#gallery {padding:20px 0 50px;} 
+#sport {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
+#coding {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
+#reading {padding-top:50px;height:500px;color: #4d4b4b; background-color: #f1f1f1;}
 
 .parallax {
   /*透明度*/
   opacity: 0.7;
   
   /* Full height */
-  height: 80%; 
+  height: 100%; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -57,10 +57,10 @@ body {
 }
 
 div .row img{
-  margin: 0 0 30px; /*top ; right&left ; bottom*/
-  width: 50%;
-  position: relative; /*(these 2 lines)put the section to the bottom layer*/
-  z-index: -1;
+  margin: 5px 0 40px; /*top ; right&left ; bottom*/
+  width: 80%;
+  /* position: relative;
+  z-index: -1; */
 }
 
 /* img {
