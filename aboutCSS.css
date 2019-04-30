@@ -34,6 +34,20 @@ body, html {
     font-family: fantasy;
 }
 
+.center-content {
+    margin: 20px;
+    padding: 200px 160px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.footer-center-content {
+    margin: 20px;
+    padding: 50px 160px;
+    text-align: center;
+    font-family: fantasy;
+}
+
 div .row img{
     margin: 40px 0 10px; /*top ; right&left ; bottom*/
     width: 80%;
@@ -42,13 +56,6 @@ div .row img{
 .img-description {
     font-size: 10px;
     font-family: cursive;
-}
-
-.center-content {
-    margin: 20px;
-    padding: 200px 160px;
-    text-align: center;
-    font-family: fantasy;
 }
 
 .parallax1 {
